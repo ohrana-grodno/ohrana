@@ -331,11 +331,16 @@ header a:hover {
 #section22-container {
     display: flex;
     flex-direction: row;
+    width: 67.5%;
 }
 
 #section221, #section222 {
     display: flex;
     flex-direction: column;
+}
+
+#section22, #section23 {
+    width: 50%;
 }
 
 #section222, #section232 {
@@ -957,6 +962,10 @@ textarea { /*Базовые стили textarea*/
         height: 12vw;
     }
 
+    #section22, #section23 {
+        width: 95%;
+    }
+
     #section22111, #section22211, #section23111, #section23222, #section23211, #section23111 {
         border-left: none;
         margin-top: -12vw;
@@ -968,6 +977,10 @@ textarea { /*Базовые стили textarea*/
 
     #section2321 img {
         margin-left: -1.5vw;
+    }
+
+    #section2221 img {
+        height: 32vw;
     }
     
     #section3Info {
@@ -994,6 +1007,7 @@ textarea { /*Базовые стили textarea*/
         font-size: 4.5vw;
         line-height: 6vw;
         margin-bottom: 0.8vw;
+        font-weight: bold;
     }
     
     #section3Icons div {
@@ -1121,7 +1135,7 @@ textarea { /*Базовые стили textarea*/
     
     #section9Small {
         font-size: 1.3vw;
-        width: 14vw;
+        width: 16vw;
     }
     
     #section9Header {
